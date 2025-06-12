@@ -1,0 +1,36 @@
+/* Your board style here */
+.racer-table td {
+  height: 40px;
+  width: 40px;
+  background-image: url("images/track.png");
+  background-size: 100% 100%;
+  position: relative;
+}
+.player-icon {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 4px;
+  left: 4px;
+  pointer-events: none;
+}
+.racer-table td.active {
+  background-repeat: no-repeat;
+}
+
+body {
+  background-image: url("images/grass.png");
+  background-size: 60px 60px;
+}
+
+h1 {
+  color: darkred;
+}
+
+div {
+  font-size: 5px;
+}
+
+hr {
+  margin: 4px;
+}
